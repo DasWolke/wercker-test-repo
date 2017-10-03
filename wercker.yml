@@ -2,7 +2,7 @@ box:
   id: node:latest
 build:
   steps:
-    - npm-instal
+    - npm-install
     - npm-test
   after-steps:
     - install-packages:
