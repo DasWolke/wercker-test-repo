@@ -8,4 +8,4 @@ build:
     - install-packages:
         packages: ruby
     - slack-notifier:
-        webhook_url: $SLACK_WEBHOOK_URL
+        url: $SLACK_WEBHOOK_URL
