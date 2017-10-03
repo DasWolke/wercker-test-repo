@@ -1,1 +1,1 @@
-console.log('nya :3');
+console.log('nya nya');
