@@ -7,5 +7,5 @@ build:
   after-steps:
     - install-packages:
         packages: ruby
-    - wantedly/pretty-slack-notify:
+    - slack-notifier:
         webhook_url: $SLACK_WEBHOOK_URL
